@@ -1,0 +1,9 @@
+{
+  "extends": ["standard", "plugin:vue/essential", "prettier"],
+
+  "rules": {
+    "standard/computed-property-even-spacing": 0,
+    "no-new": 0
+  },
+  "plugins": ["vue", "html"]
+}

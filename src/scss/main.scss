@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.margin-top {
+  margin-top: 15px;
+}
+
+.fontMono {
+  font-family: Courier, "Lucida Console", monospace;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  opacity: 1;
+  transition-duration: 0.4s;
+  transition-delay: 0.2s;
+  transition-timing-function: linear;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  transition: all 0.1s linear;
+}
+.footer {
+  background-color: #f5f5f5;
+}
+.backtemplate {
+  background-color: #f5f5f5;
+}
+.hand {
+  cursor: pointer;
+}
+// Set your brand colors
+$cinfo: #00bffe;
+$csuccess: #10ddc2;
+$clink: #00bffe;
+$clight: #f2f8ff;
+$cdark: #274252;
+$cwarning: #ffce00;
+$cprimary: #00bffe;
+$cdanger: #e85251;
+// Update Bulma's global variables
+$family-sans-serif: "Montserrat", sans-serif;
+$grey-light: $clight;
+$primary: $cprimary;
+$link: $clink;
+$warning: $cwarning;
+$info: $cinfo;
+$light: $clight;
+$dark: $cdark;
+$success: $csuccess;
+$danger: $cdanger;
+$black: hsl(0, 0%, 4%);
+$modal-background-background-color: rgba($black, 0.4);
+$modal-content-width: 920px;
+
+// Update some of Bulma's component variables
+// $body-background-color: $beige-lighter;
+// $input-border-color: transparent;
+// $input-shadow: none;
+
+@import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/bulma-extensions/bulma-tooltip/dist/css/bulma-tooltip.sass";
+@import "../../node_modules/bulma-extensions/bulma-checkradio/dist/css/bulma-checkradio.sass";
+@import "../../node_modules/bulma-extensions/bulma-pageloader/dist/css/bulma-pageloader.sass";
+@import "../../node_modules/bulma-extensions/bulma-pricingtable/dist/css/bulma-pricingtable.sass";
+@import "../../node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.sass";
+@import "../../node_modules/bulma-extensions/bulma-switch/src/sass/index.sass";
+
