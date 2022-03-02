@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "engines": {
-    "node": "12..13.0x",
+    "node": "12..13.0",
     "npm": "6.x"
    },
   "dependencies": {
